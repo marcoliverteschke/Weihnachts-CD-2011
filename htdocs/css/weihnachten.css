@@ -76,6 +76,7 @@ strong {
 
 
 article {
+	background-color: rgba(256, 256, 256, .2);
 	margin: 0 auto;
 	position: relative;
 	width: 600px;
@@ -85,7 +86,7 @@ article {
 
 section {
 	margin-bottom: 400px;
-	padding: 2em 0;
+	padding: 2em 1em;
 }
 
 

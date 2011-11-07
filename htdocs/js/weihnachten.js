@@ -1,10 +1,10 @@
 T("body").start({});
 
 T("story")
-	.moveTo(0)
+	.moveTo(80)
 	.tween({
-		from:	{ "color": "#000000", 'background-color': 'rgba(256, 256, 256, 1)' },
-		to:		{ "color": "#ffffff", 'background-color': 'rgba(0, 0, 0, 1)' },
+		from:	{ "color": "#000000"},
+		to:		{ "color": "#ffffff"},
 		duration: 10
 	});
 
