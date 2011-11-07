@@ -1,14 +1,14 @@
 T("body").start({});
 
 T("story")
-	.moveTo(90)
+	.moveTo(0)
 	.tween({
-		from:	{ "color": "#000000" },
-		to:		{ "color": "#ffffff" },
+		from:	{ "color": "#000000", 'background-color': 'rgba(256, 256, 256, 1)' },
+		to:		{ "color": "#ffffff", 'background-color': 'rgba(0, 0, 0, 1)' },
 		duration: 10
 	});
 
-T("bg-1")
+T("bg-01")
 	.moveTo(0)
 	.tween({
 		from:	{ "opacity": 1 },
@@ -16,7 +16,20 @@ T("bg-1")
 		duration: 10
 	});
 
-T("bg-2")
+T("bg-02")
+	.moveTo(0)
+	.tween({
+		from:	{ "opacity": 0 },
+		to:		{ "opacity": 1 },
+		duration: 10
+	}).moveTo(10)
+	.tween({
+		from:	{ "opacity": 1 },
+		to:		{ "opacity": 0 },
+		duration: 10
+	});
+
+T("bg-03")
 	.moveTo(10)
 	.tween({
 		from:	{ "opacity": 0 },
@@ -29,7 +42,7 @@ T("bg-2")
 		duration: 10
 	});
 
-T("bg-3")
+T("bg-04")
 	.moveTo(20)
 	.tween({
 		from:	{ "opacity": 0 },
@@ -42,7 +55,7 @@ T("bg-3")
 		duration: 10
 	});
 
-T("bg-4")
+T("bg-05")
 	.moveTo(30)
 	.tween({
 		from:	{ "opacity": 0 },
@@ -55,7 +68,7 @@ T("bg-4")
 		duration: 10
 	});
 
-T("bg-5")
+T("bg-06")
 	.moveTo(40)
 	.tween({
 		from:	{ "opacity": 0 },
@@ -68,7 +81,7 @@ T("bg-5")
 		duration: 10
 	});
 
-T("bg-6")
+T("bg-07")
 	.moveTo(50)
 	.tween({
 		from:	{ "opacity": 0 },
@@ -81,7 +94,7 @@ T("bg-6")
 		duration: 10
 	});
 
-T("bg-7")
+T("bg-08")
 	.moveTo(60)
 	.tween({
 		from:	{ "opacity": 0 },
@@ -94,7 +107,7 @@ T("bg-7")
 		duration: 10
 	});
 
-T("bg-8")
+T("bg-09")
 	.moveTo(70)
 	.tween({
 		from:	{ "opacity": 0 },
@@ -107,21 +120,8 @@ T("bg-8")
 		duration: 10
 	});
 
-T("bg-9")
-	.moveTo(80)
-	.tween({
-		from:	{ "opacity": 0 },
-		to:		{ "opacity": 1 },
-		duration: 10
-	}).moveTo(90)
-	.tween({
-		from:	{ "opacity": 1 },
-		to:		{ "opacity": 0 },
-		duration: 10
-	});
-
 T("bg-10")
-	.moveTo(90)
+	.moveTo(80)
 	.tween({
 		from:	{ "opacity": 0 },
 		to:		{ "opacity": 1 },

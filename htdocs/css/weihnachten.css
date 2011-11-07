@@ -18,17 +18,60 @@ strong {
 }
 
 
-#backgrounds img {
-	display: block;
+#backgrounds div {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 	opacity: 0;
 	position: fixed;
 	top: 0;
-	width: 100%;
 	z-index: 0;
 }
 
-#backgrounds img:first-of-type {
+#backgrounds div:first-of-type {
 	opacity: 1;
+}
+
+#bg-01 {
+	background-image: url('/img/chapter-01.png');
+}
+
+#bg-02 {
+	background-image: url('/img/chapter-02.jpg');
+}
+
+#bg-03 {
+	background-image: url('/img/chapter-03.jpg');
+}
+
+#bg-04 {
+	background-image: url('/img/chapter-04.jpg');
+}
+
+#bg-05 {
+	background-image: url('/img/chapter-05.jpg');
+}
+
+#bg-06 {
+	background-image: url('/img/chapter-06.jpg');
+}
+
+/*#bg-07 {
+	background-image: url('/img/chapter-01.png');
+}
+
+#bg-08 {
+	background-image: url('/img/chapter-01.png');
+}*/
+
+#bg-09 {
+	background-image: url('/img/chapter-09.jpg');
+}
+
+#bg-10 {
+	background-image: url('/img/chapter-10.png');
 }
 
 
