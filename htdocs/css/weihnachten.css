@@ -47,7 +47,7 @@ strong {
 }
 
 #bg-04 {
-	background-image: url('/img/chapter-04.png');
+	background-image: url('/img/chapter-04.jpg');
 }
 
 #bg-05 {
@@ -58,10 +58,10 @@ strong {
 	background-image: url('/img/chapter-06.jpg');
 }
 
-/*#bg-07 {
-	background-image: url('/img/chapter-01.png');
+#bg-07 {
+	background-image: url('/img/chapter-07.jpg');
 }
-*/
+
 #bg-08 {
 	background-image: url('/img/chapter-08.jpg');
 }
@@ -76,7 +76,6 @@ strong {
 
 
 article {
-	background-color: rgba(256, 256, 256, .2);
 	margin: 0 auto;
 	position: relative;
 	width: 600px;
@@ -86,6 +85,7 @@ article {
 
 section {
 	margin-bottom: 400px;
+	min-height: 400px;
 	padding: 2em 1em;
 }
 
@@ -94,11 +94,15 @@ section:first-of-type {
 	font-family: 'Courier New', monospace;
 }
 
+section h1 {
+	display: none;
+}
 
 section:first-of-type h1 {
 	background-image: url('../img/logo_nasa.jpg');
 	background-repeat: no-repeat;
 	background-size: 167px 135px;
+	display: block;
 	font-weight: bold;
 	height: 135px;
 	padding-left: 180px;
